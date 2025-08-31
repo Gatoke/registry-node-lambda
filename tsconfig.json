@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // File Layout
+     "outDir": "./dist",
+
+    // Environment Settings
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "target": "ES2024",
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Recommended Options
+    "strict": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+
+    // crucial for Registry working
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  }
+}
